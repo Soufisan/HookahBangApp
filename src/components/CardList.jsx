@@ -1,12 +1,17 @@
 import CardSabor from "../components/CardSabor";
+import CardBebida from "../components/CardBebida";
 
-const CardList = ({ setSaborDescription, saborText }) => {
+const CardList = () => {
   return (
     <>
       <h3>Sabores de tu SHISHA</h3>
-
       <div className="general">
         <CardSabor />
+      </div>
+
+      <h3>Bebidas</h3>
+      <div className="general">
+        <CardBebida />
       </div>
     </>
   );
