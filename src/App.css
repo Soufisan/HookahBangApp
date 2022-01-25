@@ -40,8 +40,9 @@
 button {
   font-size: calc(10px + 2vmin);
 }
-img {
-  height: 20vmin;
+.logo {
+  padding-top: 20px;
+  height: 30vmin;
   /* position: absolute; */
   flex-direction: column;
   display: flex;
@@ -51,6 +52,4 @@ img {
   box-shadow: 20px;
 }
 
-Typography {
-  color: rgb(137, 138, 207);
-}
+

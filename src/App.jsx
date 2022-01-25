@@ -7,7 +7,7 @@ function App({ CardMedia }) {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={LogoHookahBang} alt="Logo HookahBang" />
+        <img className="logo" src={LogoHookahBang} alt="Logo HookahBang" />
         <CardList />
       </header>
     </div>
