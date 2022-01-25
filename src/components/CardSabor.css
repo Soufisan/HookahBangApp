@@ -2,7 +2,7 @@
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   width: 90%;
-  height: 80px;
+  /* height: 80px; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 10px;
   display: flex;
@@ -50,7 +50,7 @@ h3 {
 }
 .general {
   flex-direction: column;
-  
+
   background-color: #16181b;
   width: 80%;
   border-radius: 10px;
@@ -79,7 +79,7 @@ p {
 .number {
   background-color: #1b202b;
   display: flex;
-  height: 100%;
+  /* height: 100%; */
   width: 30px;
   justify-content: center;
 }
