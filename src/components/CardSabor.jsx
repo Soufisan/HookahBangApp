@@ -74,74 +74,134 @@ const CardSabor = () => {
     <div>
       <div className="container">
         <img className="img" src={Hawaii} alt="Imagen" />
-        <p className="title">
-          <b>{Sabores[0].id}</b>
-          {Sabores[0].title}
-        </p>
+        <div className="number">
+          <p>
+            <b>{Sabores[0].id}</b>
+          </p>
+        </div>
+        <p className="title">{Sabores[0].title}</p>
         <p className="description">{Sabores[0].description}</p>
       </div>
 
       <div className="container">
         <img className="img" src={Exotic} alt="Imagen" />
-        <p className="title">
-          <b>{Sabores[1].id}</b>
-          {Sabores[1].title}
-        </p>
+        <div className="number">
+          <p>
+            <b>{Sabores[1].id}</b>
+          </p>
+        </div>
+        <p className="title">{Sabores[1].title}</p>
         <p className="description">{Sabores[1].description}</p>
       </div>
 
       <div className="container">
         <img className="img" src={Exotic} alt="Imagen" />
-        <p className="title">
-          <b>{Sabores[2].id}</b>
-          {Sabores[2].title}
-        </p>
+        <div className="number">
+          <p>
+            <b>{Sabores[2].id}</b>
+          </p>
+        </div>
+        <p className="title">{Sabores[2].title}</p>
         <p className="description">{Sabores[2].description}</p>
       </div>
 
       <div className="container">
         <img className="img" src={Exotic} alt="Imagen" />
-        <p className="title">
-          <b>{Sabores[3].id}</b>
-          {Sabores[3].title}
-        </p>
+        <div className="number">
+          <p>
+            <b>{Sabores[3].id}</b>
+          </p>
+        </div>
+        <p className="title">{Sabores[3].title}</p>
         <p className="description">{Sabores[3].description}</p>
       </div>
 
       <div className="container">
         <img className="img" src={Exotic} alt="Imagen" />
-        <p className="title">
-          <b>{Sabores[4].id}</b>
-          {Sabores[4].title}
-        </p>
+        <div className="number">
+          <p>
+            <b>{Sabores[4].id}</b>
+          </p>
+        </div>
+        <p className="title">{Sabores[4].title}</p>
         <p className="description">{Sabores[4].description}</p>
       </div>
 
       <div className="container">
         <img className="img" src={Exotic} alt="Imagen" />
-        <p className="title">
-          <b>{Sabores[5].id}</b>
-          {Sabores[5].title}
-        </p>
+        <div className="number">
+          <p>
+            <b>{Sabores[5].id}</b>
+          </p>
+        </div>
+        <p className="title">{Sabores[5].title}</p>
         <p className="description">{Sabores[5].description}</p>
       </div>
 
       <div className="container">
         <img className="img" src={Exotic} alt="Imagen" />
-        <p className="title">
-          <b>{Sabores[6].id}</b>
-          {Sabores[6].title}
-        </p>
+        <div className="number">
+          <p>
+            <b>{Sabores[6].id}</b>
+          </p>
+        </div>
+        <p className="title">{Sabores[6].title}</p>
         <p className="description">{Sabores[6].description}</p>
       </div>
 
       <div className="container">
         <img className="img" src={Exotic} alt="Imagen" />
-        <p className="title">
-          <b>{Sabores[7].id}</b>
-          {Sabores[7].title}
-        </p>
+        <div className="number">
+          <p>
+            <b>{Sabores[7].id}</b>
+          </p>
+        </div>
+        <p className="title">{Sabores[7].title}</p>
         <p className="description">{Sabores[7].description}</p>
+      </div>
+
+      <div className="container">
+        <img className="img" src={Exotic} alt="Imagen" />
+        <div className="number">
+          <p>
+            <b>{Sabores[8].id}</b>
+          </p>
+        </div>
+        <p className="title">{Sabores[8].title}</p>
+        <p className="description">{Sabores[8].description}</p>
+      </div>
+
+      <div className="container">
+        <img className="img" src={Exotic} alt="Imagen" />
+        <div className="number">
+          <p>
+            <b>{Sabores[9].id}</b>
+          </p>
+        </div>
+        <p className="title">{Sabores[9].title}</p>
+        <p className="description">{Sabores[9].description}</p>
+      </div>
+
+      <div className="container">
+        <img className="img" src={Exotic} alt="Imagen" />
+        <div className="number">
+          <p>
+            <b>{Sabores[10].id}</b>
+          </p>
+        </div>
+        <p className="title">{Sabores[10].title}</p>
+        <p className="description">{Sabores[10].description}</p>
+      </div>
+
+      <div className="container">
+        <img className="img" src={Exotic} alt="Imagen" />
+        <div className="number">
+          <p>
+            <b>{Sabores[11].id}</b>
+          </p>
+        </div>
+        <p className="title"><b>{Sabores[11].title}</b></p>
+        <p className="description">b{Sabores[11].description}</p>
       </div>
     </div>
   );
