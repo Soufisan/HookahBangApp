@@ -14,7 +14,7 @@ const CardSabor = () => {
     {
       id: 1,
       title: "Hawaii",
-      description: "Piña, Mango y Menta",
+      description: "Piña, mango y menta",
     },
     {
       id: 2,
@@ -64,7 +64,7 @@ const CardSabor = () => {
     {
       id: 11,
       title: "Mi amor",
-      description: "Mezcla debayas, plátano y hielo",
+      description: "Mezcla de bayas, plátano y hielo",
     },
     {
       id: 12,
