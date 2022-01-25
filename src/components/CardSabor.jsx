@@ -1,9 +1,9 @@
 import "./CardSabor.css";
-import Hawaii from "../img/Hawaii.jpg";
-import Exotic from "../img/Exotic.jpg";
-import LadyKiller from "../img/lady-killer.jpg";
-import Dolar from "../img/dolar.jpg";
-import MoonDream from "../img/MonDream.jpg";
+// import Hawaii from "../img/Hawaii.jpg";
+// import Exotic from "../img/Exotic.jpg";
+// import LadyKiller from "../img/lady-killer.jpg";
+// import Dolar from "../img/dolar.jpg";
+// import MoonDream from "../img/MonDream.jpg";
 import { useState } from "react";
 
 const CardSabor = () => {
