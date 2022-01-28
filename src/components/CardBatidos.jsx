@@ -13,19 +13,19 @@ const CardBatidos = () => {
     const Bebidas = [
         {
             id: 1,
-            title: "Batido chocolate",
+            title: "chocolate",
         },
         {
             id: 2,
-            title: "Batido fresa",
+            title: "fresa",
         },
         {
             id: 3,
-            title: "Batido aguacate",
+            title: "aguacate",
         },
         {
             id: 4,
-            title: "Batido plátano",
+            title: "plátano",
         },
 
 
