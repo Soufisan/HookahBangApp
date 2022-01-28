@@ -25,7 +25,7 @@ const CardBatidos = () => {
         },
         {
             id: 4,
-            title: "Batido platano",
+            title: "Batido plátano",
         },
 
 

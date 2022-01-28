@@ -16,7 +16,7 @@ const CardBebida = () => {
   const Bebidas = [
     {
       id: 2,
-      title: "CocoCola",
+      title: "CocaCola",
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const CardBebida = () => {
     },
     {
       id: 7,
-      title: "aquarius de limon",
+      title: "aquarius de limón",
     },
     {
       id: 8,
