@@ -1,5 +1,8 @@
 import CardSabor from "../components/CardSabor";
 import CardBebida from "../components/CardBebida";
+import CardZumo from "./CardZumo";
+import CardBatidos from "./CardBatidos";
+import CardPostre from "./CardPostre";
 
 const CardList = () => {
   return (
@@ -9,9 +12,26 @@ const CardList = () => {
         <CardSabor />
       </div>
 
-      <h3>Bebidas</h3>
+      <h3>Refrescos</h3>
       <div className="general">
         <CardBebida />
+      </div>
+
+      <h3>Zumos</h3>
+      <div className="general">
+        <CardZumo />
+      </div>
+
+
+      <h3>Batidos</h3>
+      <div className="general">
+        <CardBatidos />
+      </div>
+
+
+      <h3>Postre</h3>
+      <div className="general">
+        <CardPostre />
       </div>
     </>
   );

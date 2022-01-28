@@ -71,6 +71,16 @@ const CardSabor = () => {
       title: "Pablo",
       description: "Lima y arándanos",
     },
+    {
+      id: 13,
+      title: "Big Boy",
+      description: "Refrescante menta con sandia",
+    },
+    {
+      id: "+",
+      title: "Personalizada",
+      description: "Mezcla a tu gusto",
+    },
   ];
 
   return (
@@ -252,6 +262,36 @@ const CardSabor = () => {
             <b>{Sabores[11].title}</b>
           </p>
           <p className="description">{Sabores[11].description}</p>
+        </div>
+      </div>
+
+      <div className="container">
+        {/* <img className="img" src={Exotic} alt="Imagen" /> */}
+        <div className="number">
+          <p>
+            <b>{Sabores[12].id}</b>
+          </p>
+        </div>
+        <div>
+          <p className="title">
+            <b>{Sabores[12].title}</b>
+          </p>
+          <p className="description">{Sabores[12].description}</p>
+        </div>
+      </div>
+
+      <div className="container">
+        {/* <img className="img" src={Exotic} alt="Imagen" /> */}
+        <div className="number">
+          <p>
+            <b>{Sabores[13].id}</b>
+          </p>
+        </div>
+        <div>
+          <p className="title">
+            <b>{Sabores[13].title}</b>
+          </p>
+          <p className="description">{Sabores[13].description}</p>
         </div>
       </div>
     </div>
