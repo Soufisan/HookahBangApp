@@ -7,6 +7,8 @@
   margin: 10px;
   display: flex;
   align-items: center;
+
+
 }
 h3 {
   color: #e8cf7f;
@@ -29,6 +31,7 @@ p.title {
   justify-items: left;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   text-transform: uppercase;
+  text-align: left;
 }
 p.description {
   color: rgb(149, 145, 134);
