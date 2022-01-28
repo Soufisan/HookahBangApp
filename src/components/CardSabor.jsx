@@ -74,7 +74,7 @@ const CardSabor = () => {
     {
       id: 13,
       title: "Big Boy",
-      description: "Refrescante menta con sandia",
+      description: "Refrescante menta con sandía",
     },
     {
       id: "+",
