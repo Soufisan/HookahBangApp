@@ -11,11 +11,11 @@ const CardZumo = () => {
     const Bebidas = [
         {
             id: 1,
-            title: "Zumo Melocotón",
+            title: "Melocotón",
         },
         {
             id: 2,
-            title: "Zumo Piña",
+            title: "Piña",
         },
 
 
