@@ -40,11 +40,11 @@ const CardBebida = () => {
     },
     {
       id: 7,
-      title: "aquario de limon",
+      title: "aquarius de limon",
     },
     {
       id: 8,
-      title: "aquario de naranja",
+      title: "aquarius de naranja",
     },
   ];
 
