@@ -1,12 +1,12 @@
 .container {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  width: 90%;
-  /* height: 65px; */
+  width: 95%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 10px;
   display: flex;
   align-items: center;
+  
 
 
 }
@@ -33,9 +33,7 @@ p.title {
   text-transform: uppercase;
   text-align: left;
 }
-p.title:hover{
-  color: white;
-}
+
 p.description {
   color: rgb(149, 145, 134);
   font-size: 14px;
@@ -48,9 +46,8 @@ p.description {
   font-family: Arial, Helvetica, sans-serif;
 
 }
-p.description:hover {
-  color: white;
-}
+
+
 .container img {
   display: flex;
   justify-content: left;
@@ -61,7 +58,6 @@ p.description:hover {
 }
 .general {
   flex-direction: column;
-  align-items: left;
   background-color: #16181b;
   width: 80%;
   border-radius: 10px;
@@ -69,23 +65,14 @@ p.description:hover {
   margin: 10px;
   display: flex;
   height: 100%;
+  
   /* align-content: center; */
 }
 .container:hover {
-  background-color: darkgoldenrod;
+  background-color: rgb(235, 233, 255);
+
   
 }
-/* b {
-  color: #ffffff;
-  background-color: darkgoldenrod;
-  padding: 100%;
-  border-radius: 20px;
-  margin-bottom: 15px;
-  justify-content: left;
-  display: flex;
-  align-items: center;
-  align-content: center;
-} */
 
 .number {
   background-color: #1b202b;
