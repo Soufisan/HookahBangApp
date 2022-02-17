@@ -5,6 +5,7 @@ import CardBatidos from "./CardBatidos";
 import CardPostre from "./CardPostre";
 import CardCafes from "./CardCafes";
 import CardTe from "./CardTe";
+import CardCoctel from "./CardCoctel";
 
 
 const CardList = () => {
@@ -25,6 +26,10 @@ const CardList = () => {
         <CardZumo />
       </div>
 
+      <h3>cocktail</h3>
+      <div className="general">
+        <CardCoctel />
+      </div>
 
       <h3>Batidos</h3>
       <div className="general">
@@ -46,6 +51,8 @@ const CardList = () => {
       <div className="general">
         <CardTe />
       </div>
+
+
     </>
   );
 };
