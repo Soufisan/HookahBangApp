@@ -54,7 +54,8 @@ p.description {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   width: 60px;
-  height: 60px;
+  /* height: 60px; */
+
 }
 .general {
   flex-direction: column;
